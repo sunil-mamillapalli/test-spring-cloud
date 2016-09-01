@@ -1,10 +1,8 @@
 ---
+# We have created a temporary app in the gallery
+# We have created a delivery pipeline
 applications:
-- name: ravi4
-  memory: 512M
-  instances: 1
-  host: ravi4
-  domain: murali.domain.com.muralikoripally.stacktest.io 
-  path: target/hello-spring-cloud-0.0.1-SNAPSHOT.jar
-  services:
-    - ravi4_mysql
+# We have reserved a name/route for your app
+- name: test-spring-cloud
+  host: test-spring-cloud
+  domain: murali.domain.com.muralikoripally.stacktest.io
